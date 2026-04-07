@@ -10,11 +10,15 @@ img {
 .cajaPrincipal{
     display: flex;
     background-color: orange;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .cajaTarjeta{
     background-color: aliceblue;
     width: 30%;
+    border-radius: 20px;
+    min-width: 300px;
 }
 
 .cajaTexto{
@@ -29,6 +33,5 @@ h2{
 }
 .textosColumna{
     background-color: lightblue;
-    
     width: 50%;
 }
