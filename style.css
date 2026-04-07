@@ -10,8 +10,8 @@ img {
 .cajaPrincipal{
     display: flex;
     background-color: orange;
-    flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .cajaTarjeta{
