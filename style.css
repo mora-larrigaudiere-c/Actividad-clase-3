@@ -19,6 +19,8 @@ img {
     width: 30%;
     border-radius: 20px;
     min-width: 300px;
+    margin: 8%;
+    padding: 10%;
 }
 
 .cajaTexto{
@@ -34,4 +36,10 @@ h2{
 .textosColumna{
     background-color: lightblue;
     width: 50%;
+}
+
+@media (width < 450px){
+    .cajaTarjeta{
+        min-width: 95%;
+    }
 }
