@@ -1,0 +1,30 @@
+body{
+background-color: rgb(80, 73, 66);
+font-family: sans-serif;
+}
+
+.cajaPrincipal{
+    display: flex;
+    background-color: orange;
+}
+
+.cajaTarjeta{
+    background-color: aliceblue;
+    width: 30%;
+}
+
+.cajaTexto{
+    background-color: lightcoral;
+    display: flex;
+    overflow: auto;
+    height: 200px;
+}
+
+h2{
+    background-color: greenyellow;
+}
+.textosColumna{
+    background-color: lightblue;
+    
+    width: 50%;
+}
