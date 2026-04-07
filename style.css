@@ -3,6 +3,10 @@ background-color: rgb(80, 73, 66);
 font-family: sans-serif;
 }
 
+img {
+    border-radius: 20px;
+}
+
 .cajaPrincipal{
     display: flex;
     background-color: orange;
